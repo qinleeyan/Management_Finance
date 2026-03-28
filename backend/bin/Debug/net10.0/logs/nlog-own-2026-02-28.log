@@ -1,0 +1,1011 @@
+2026-02-28 00:14:21.7350||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5050 |url: |action: 
+2026-02-28 00:14:21.7547||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2026-02-28 00:14:21.7547||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2026-02-28 00:14:21.7547||INFO|Microsoft.Hosting.Lifetime|Content root path: /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend |url: |action: 
+2026-02-28 00:14:30.5429||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:14:36.5940||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:14:36.6222||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:14:41.6650||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:14:41.6870||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:14:46.8759||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:15:13.4514||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:15:18.5377||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:15:19.6651||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:15:23.0396||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:15:24.1088||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:15:29.1407||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:15:46.5616||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:15:46.5616||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:15:46.5616||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:15:46.5616||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:15:47.7410||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:15:47.7410||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:15:49.3941||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:15:49.3941||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:15:50.4395||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:15:51.1188||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:15:51.5161||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:15:52.0819||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:16:18.0826||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:16:18.0839||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:16:18.0839||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:16:18.0839||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:16:19.5258||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:16:19.5274||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:16:20.6548||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:16:20.6619||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:16:21.3645||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:16:21.5614||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:16:22.9876||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:16:23.0151||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:25:32.4344||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:25:32.4375||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:25:32.4375||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:25:32.4375||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:25:33.7026||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:25:37.6428||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:25:37.7807||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:25:37.8109||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:25:37.8109||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:25:42.9911||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:25:42.9911||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:25:46.1600||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:28:11.0706||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:28:11.1173||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:28:11.1219||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:28:11.1245||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:28:14.1473||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 00:28:14.1512||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 00:28:16.2224||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:28:16.2248||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:28:17.1252||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 00:28:21.2766||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:28:21.2779||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 00:28:26.2268||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 03:42:04.3148||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 03:42:04.3148||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 03:42:04.3195||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 03:42:04.3227||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 03:42:05.5221||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 03:42:05.5267||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 03:42:08.4423||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 03:42:08.8687||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 03:42:08.8687||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 03:42:10.0499||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 03:42:10.0499||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 03:42:14.6104||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:21:06.1719||INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2026-02-28 04:21:56.7502||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5050 |url: |action: 
+2026-02-28 04:21:56.7869||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2026-02-28 04:21:56.7869||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2026-02-28 04:21:56.7869||INFO|Microsoft.Hosting.Lifetime|Content root path: /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend |url: |action: 
+2026-02-28 04:22:05.0633||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:10.5951||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:10.6568||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:16.6551||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:16.6677||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:21.1682||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:21.9739||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:24.9410||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:24.9449||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:27.7196||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:27.7703||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 04:22:27.7672||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 04:22:27.7672||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 04:22:27.9244||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:27.9267||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:31.3495||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 04:22:32.0807||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:32.0833||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:32.8192||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 04:22:32.8270||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:33.3642||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 04:22:34.8276||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:34.8295||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:39.7083||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:48.5162||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:52.1942||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:52.2154||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:55.0797||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:55.0797||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 04:22:58.0467||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 08:23:48.3282||INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+ack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)|url: |action: 
+2026-02-28 04:22:37.9573||ERROR|LedgerAI.Backend.Program|Stopped program because of exception System.IO.IOException: Failed to bind to address http://127.0.0.1:5050: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (98): Address already in use
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Program.cs:line 92|url: |action: 
+2026-02-28 11:33:42.1435||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5050 |url: |action: 
+2026-02-28 11:33:42.1672||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2026-02-28 11:33:42.1672||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2026-02-28 11:33:42.1672||INFO|Microsoft.Hosting.Lifetime|Content root path: /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend |url: |action: 
+2026-02-28 11:34:55.6144||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:34:55.6144||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:34:55.6144||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:34:55.6144||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:34:57.0976||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:34:59.9546||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:34:59.9793||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:00.2571||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:35:00.8402||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:35:02.1322||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:02.1382||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:04.4492||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:10.8894||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:35:10.8894||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:10.8894||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:35:10.8894||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:35:11.9206||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:35:13.9599||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:35:14.1035||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:14.1035||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:15.2819||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:35:15.4471||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:15.4514||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:17.5650||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:35:34.9471||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:35:38.7254||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:35:38.7365||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:35:43.5800||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:43:52.7064||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:43:52.7064||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:43:52.7098||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:43:52.7098||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:43:54.3986||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:43:54.4600||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:43:54.4632||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:43:54.4732||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:43:54.4999||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:43:54.5041||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:43:55.4616||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:43:55.5068||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:43:55.6002||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:43:58.2810||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:43:58.2810||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:43:59.8442||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:43:59.8466||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:43:59.8466||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:44:00.7970||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:44:00.7970||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:44:01.1111||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:44:03.2074||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:03.2127||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:06.1055||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:06.1103||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:10.9711||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:10.9733||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:15.9066||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:15.9066||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:19.8505||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:20.7968||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:20.7968||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:20.7968||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:21.4246||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:44:21.8242||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:21.8242||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:22.3544||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:44:22.3677||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:44:22.9350||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:44:27.2736||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:46:13.4151||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:46:13.4151||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:46:13.4151||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:46:13.4151||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:46:17.1732||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:46:18.0167||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:46:18.3669||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:46:18.3669||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:46:18.4592||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:46:20.2742||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:46:20.2742||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:46:24.4569||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:48:18.2239||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:48:18.2264||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:48:18.2298||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:18.2298||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:48:19.6304||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:48:19.8785||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:21.3718||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:48:21.8069||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:22.4468||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:48:22.4468||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:48:23.9726||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:48:23.9731||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:48:24.7845||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:24.7913||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:26.7767||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 11:48:27.5663||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:36.9031||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:36.9031||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:48:36.9031||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:48:38.8363||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:38.8398||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:40.0036||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:48:40.0242||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:48:40.7978||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 11:48:40.9592||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:48:40.9598||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 11:48:42.9755||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 11:48:44.7059||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:06:30.0968||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:06:30.1097||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:06:30.1097||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:06:30.1097||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:06:31.5000||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:06:31.6790||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:06:31.6790||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:06:31.7855||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:06:32.7170||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:06:33.4172||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:06:33.4172||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:06:35.3421||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:19:40.0829||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:19:40.0869||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:19:40.0869||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:19:40.0869||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:19:41.3297||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:19:41.3937||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:19:41.6202||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:19:41.6202||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:19:42.0202||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:19:42.7153||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:19:42.7153||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:19:43.9887||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:29:38.1267||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:29:38.1298||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:29:38.1298||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:29:38.1352||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:29:39.2474||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:29:39.2658||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable, falling back to local CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:29:39.2658||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: piutang |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:29:39.6246||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:29:40.2433||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for piutang, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:29:40.2433||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets API: budget |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:29:40.8319||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:29:41.7643||WARN|LedgerAI.Backend.Services.SheetParserService|Google Sheets API unavailable for budget, falling back to CSV: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:43:33.1913||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5050 |url: |action: 
+2026-02-28 12:43:33.2210||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2026-02-28 12:43:33.2268||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2026-02-28 12:43:33.2268||INFO|Microsoft.Hosting.Lifetime|Content root path: /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend |url: |action: 
+2026-02-28 12:44:13.4503||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:44:17.0893||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:44:17.0966||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:44:17.1714||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:44:20.1671||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:44:20.1671||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:22.5729||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:22.6062||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:22.6062||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:22.6130||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:22.6130||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:22.6130||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:25.6411||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:25.6429||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:25.6945||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:25.7303||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:25.7303||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:25.7328||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:25.8467||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:25.8467||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:25.8964||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:25.8964||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:25.8964||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:25.9923||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:26.0260||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:26.0298||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:26.0395||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:26.0656||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:26.0680||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:26.0731||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:28.2679||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:28.2679||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:28.2729||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:28.2729||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:28.2729||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:28.4329||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:28.6802||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:28.6802||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:28.7263||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:28.8083||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:28.8083||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:28.8110||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:29.2105||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:29.2105||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:29.2160||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:29.5913||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:29.5913||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:29.5913||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:30.7396||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:30.7396||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:30.8388||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:30.8388||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:30.8587||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:30.8587||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:31.1452||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:31.1452||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:31.8343||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:31.8343||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:31.8628||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:32.1405||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:32.1405||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:33.1511||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:33.1599||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:33.1599||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:33.1794||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:33.1794||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:34.0520||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:34.0531||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:34.0531||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:35.3180||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:35.3180||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:35.3180||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:45:35.3180||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:45:35.5137||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:35.5137||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:35.8409||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:35.8409||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:35.9047||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:35.9047||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:45:36.0719||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:36.0719||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:36.0719||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:36.8779||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:38.0975||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:38.0975||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:39.3461||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:39.3461||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:39.3461||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:41.2829||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:41.2829||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:41.2829||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:43.2798||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:45:43.2798||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:15.9070||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:19.2364||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:19.2364||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:19.2440||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:20.9208||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:20.9333||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:46:20.9416||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:46:20.9429||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:21.0061||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:21.0212||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:21.8817||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:21.8853||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:23.4215||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:46:23.4215||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:46:23.5082||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:46:23.5082||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:46:23.6373||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:23.6429||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:24.9329||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:24.9329||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:25.1910||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:25.1910||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:25.1910||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:26.6757||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:26.6757||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:28.9594||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:28.9594||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:28.9594||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:31.4130||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:31.4130||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 12:46:41.9843||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:44.7806||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:44.7806||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:44.8030||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:46.7087||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:48.3190||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:48.3194||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:49.2629||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:46:49.5956||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:49.5962||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:49.7167||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:51.8899||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:46:51.8899||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:46:51.8932||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:46:52.1279||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:52.1279||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:54.3336||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:46:54.3336||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:46:56.0432||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:59.1101||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:59.1101||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:46:59.1664||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:02.4864||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:02.4927||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:47:02.4927||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:47:02.7692||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:02.7696||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:02.8407||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:04.5497||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:47:04.5497||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:47:04.5781||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:47:04.5781||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:47:04.5781||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:47:04.5801||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:47:05.1904||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:05.1946||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:05.3200||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:05.5750||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:05.5750||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:05.5796||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:07.2606||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:47:07.2630||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 12:47:07.4442||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:47:07.4442||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 12:47:07.9722||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:07.9727||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:09.0308||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:47:09.0308||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 12:54:28.0733||ERROR|LedgerAI.Backend.Program|Stopped program because of exception System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: LedgerAI.Backend.Services.SheetParserService Lifetime: Scoped ImplementationType: LedgerAI.Backend.Services.SheetParserService': Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'LedgerAI.Backend.Services.SheetParserService'.) (Error while validating the service descriptor 'ServiceType: LedgerAI.Backend.Services.AnalyticsService Lifetime: Scoped ImplementationType: LedgerAI.Backend.Services.AnalyticsService': Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'LedgerAI.Backend.Services.SheetParserService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: LedgerAI.Backend.Services.SheetParserService Lifetime: Scoped ImplementationType: LedgerAI.Backend.Services.SheetParserService': Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'LedgerAI.Backend.Services.SheetParserService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'LedgerAI.Backend.Services.SheetParserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: LedgerAI.Backend.Services.AnalyticsService Lifetime: Scoped ImplementationType: LedgerAI.Backend.Services.AnalyticsService': Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'LedgerAI.Backend.Services.SheetParserService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'LedgerAI.Backend.Services.SheetParserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+|url: |action: 
+2026-02-28 13:03:38.4340||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5050 |url: |action: 
+2026-02-28 13:03:38.4551||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2026-02-28 13:03:38.4564||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2026-02-28 13:03:38.4564||INFO|Microsoft.Hosting.Lifetime|Content root path: /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend |url: |action: 
+2026-02-28 13:04:23.4102||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:23.4102||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:23.4102||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:23.4102||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 13:04:23.4102||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 13:04:23.4277||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 13:04:26.6684||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 13:04:26.6696||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:26.6764||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 13:04:26.7168||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:26.7168||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:26.7194||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:27.1354||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 13:04:27.1365||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 13:04:27.1365||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 13:04:27.7129||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 13:04:27.7129||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 13:04:27.9186||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:27.9198||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:29.8309||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 13:04:29.8309||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 13:04:29.8309||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 13:04:29.8329||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 13:04:36.0335||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:36.0335||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:36.0459||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:04:36.0459||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 13:21:56.3422||INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2026-02-28 22:56:02.8207||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5050 |url: |action: 
+2026-02-28 22:56:02.8446||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2026-02-28 22:56:02.8457||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2026-02-28 22:56:02.8457||INFO|Microsoft.Hosting.Lifetime|Content root path: /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend |url: |action: 
+2026-02-28 22:57:28.0249||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 22:57:28.0249||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 22:57:28.0249||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:57:31.1540||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:57:31.1587||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:57:31.1991||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 22:57:31.1991||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 22:57:31.2429||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:57:31.2429||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 22:57:31.2429||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 22:57:31.2429||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:57:32.8576||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 22:57:32.8593||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 22:57:32.8670||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 22:57:32.8701||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 22:57:52.8152||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 22:57:52.8154||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 22:57:52.8154||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 22:57:52.8154||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 22:57:52.8154||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 22:57:52.8154||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 22:58:02.7554||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:58:17.7790||ERROR|LedgerAI.Backend.Services.SheetParserService|Error fetching Transaksi_Kas from Google Sheets API System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: The read operation failed, see inner exception.
+ ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at LedgerAI.Backend.Services.SheetParserService.FetchFromSheetsApiAsync(String sheetName) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Services/SheetParserService.cs:line 85|url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:58:17.7856||WARN|LedgerAI.Backend.Services.SheetParserService|Failed to fetch Transaksi_Kas from Google Sheets. Returning empty list. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:58:17.7902||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:58:21.5714||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (8 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:58:21.5714||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:59:48.0399||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:59:51.4598||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (7 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 22:59:51.4598||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:00:22.0254||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:00:26.7079||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:00:26.7088||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:00:26.7157||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:00:26.7157||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:00:51.9487||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:00:57.0102||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:00:57.0102||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:00:57.0236||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:00:57.0254||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:01:15.6734||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:01:20.3869||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (7 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:01:20.3869||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:01:20.3932||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:01:20.3932||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:20:42.7460||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:20:42.7487||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:20:42.7521||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:20:42.7521||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:20:43.5086||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:20:43.5086||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:20:43.5119||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:20:43.5152||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:20:52.7870||ERROR|LedgerAI.Backend.Services.SheetParserService|Error fetching Budget_Dept from Google Sheets API System.Net.Http.HttpRequestException: Resource temporarily unavailable (script.google.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at LedgerAI.Backend.Services.SheetParserService.FetchFromSheetsApiAsync(String sheetName) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Services/SheetParserService.cs:line 85|url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:20:52.7907||WARN|LedgerAI.Backend.Services.SheetParserService|Failed to fetch Budget_Dept from Google Sheets. Returning empty list. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:20:57.7578||ERROR|LedgerAI.Backend.Services.SheetParserService|Error fetching Piutang_Klien from Google Sheets API System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at LedgerAI.Backend.Services.SheetParserService.FetchFromSheetsApiAsync(String sheetName) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Services/SheetParserService.cs:line 85|url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:20:57.7578||ERROR|LedgerAI.Backend.Services.SheetParserService|Error fetching Transaksi_Kas from Google Sheets API System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at LedgerAI.Backend.Services.SheetParserService.FetchFromSheetsApiAsync(String sheetName) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Services/SheetParserService.cs:line 85|url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:20:57.7578||ERROR|LedgerAI.Backend.Services.SheetParserService|Error fetching Transaksi_Kas from Google Sheets API System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at LedgerAI.Backend.Services.SheetParserService.FetchFromSheetsApiAsync(String sheetName) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Services/SheetParserService.cs:line 85|url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:20:57.7632||WARN|LedgerAI.Backend.Services.SheetParserService|Failed to fetch Piutang_Klien from Google Sheets. Returning empty list. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:20:57.7632||WARN|LedgerAI.Backend.Services.SheetParserService|Failed to fetch Transaksi_Kas from Google Sheets. Returning empty list. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:20:57.7659||WARN|LedgerAI.Backend.Services.SheetParserService|Failed to fetch Transaksi_Kas from Google Sheets. Returning empty list. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:20:57.7659||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:20:58.5123||ERROR|LedgerAI.Backend.Services.SheetParserService|Error fetching Piutang_Klien from Google Sheets API System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at LedgerAI.Backend.Services.SheetParserService.FetchFromSheetsApiAsync(String sheetName) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Services/SheetParserService.cs:line 85|url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:20:58.5123||ERROR|LedgerAI.Backend.Services.SheetParserService|Error fetching Transaksi_Kas from Google Sheets API System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at LedgerAI.Backend.Services.SheetParserService.FetchFromSheetsApiAsync(String sheetName) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Services/SheetParserService.cs:line 85|url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:20:58.5220||WARN|LedgerAI.Backend.Services.SheetParserService|Failed to fetch Piutang_Klien from Google Sheets. Returning empty list. |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:20:58.5220||WARN|LedgerAI.Backend.Services.SheetParserService|Failed to fetch Transaksi_Kas from Google Sheets. Returning empty list. |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:20:58.5152||ERROR|LedgerAI.Backend.Services.SheetParserService|Error fetching Budget_Dept from Google Sheets API System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at LedgerAI.Backend.Services.SheetParserService.FetchFromSheetsApiAsync(String sheetName) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Services/SheetParserService.cs:line 85|url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:20:58.5152||ERROR|LedgerAI.Backend.Services.SheetParserService|Error fetching Transaksi_Kas from Google Sheets API System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at LedgerAI.Backend.Services.SheetParserService.FetchFromSheetsApiAsync(String sheetName) in /home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/Services/SheetParserService.cs:line 85|url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:20:58.5220||WARN|LedgerAI.Backend.Services.SheetParserService|Failed to fetch Budget_Dept from Google Sheets. Returning empty list. |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:20:58.5254||WARN|LedgerAI.Backend.Services.SheetParserService|Failed to fetch Transaksi_Kas from Google Sheets. Returning empty list. |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:20:58.5254||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:01.1375||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:01.1375||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:01.1375||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:02.1513||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:02.1513||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:02.1513||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:03.4716||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:03.4719||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:05.3011||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:21:05.3011||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:22:30.5321||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:22:31.0199||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:31.4440||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:22:33.1617||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (7 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:22:33.1618||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:22:33.1667||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:22:33.1667||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:22:34.0116||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:34.0118||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:34.0161||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:34.0161||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:34.0205||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:34.0205||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:34.0237||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:34.0237||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:34.0414||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:22:34.0414||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:22:34.0419||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:22:34.0419||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:22:53.5885||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:22:53.5885||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:22:53.5938||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:53.5938||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:53.5968||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:22:53.5968||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:22:53.6002||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:22:53.6002||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:22:53.6031||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:53.6031||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:22:53.6052||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:22:53.6052||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:51.3817||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:51.3857||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:51.3857||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:51.3815||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:56.3607||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:56.3607||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:56.3686||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:56.3686||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:57.5038||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (7 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.5038||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.5083||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.5083||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.6237||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.6237||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.6266||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.6266||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.7952||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (7 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.7952||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.7952||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.7952||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.7952||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.7952||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.8068||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.8068||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.8068||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.8068||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.8068||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.8068||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:44:57.9083||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9083||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9204||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.9204||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:57.9217||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9217||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.9217||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:57.9217||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9322||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:57.9322||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:57.9352||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9352||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9352||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.9352||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.9384||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:57.9384||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:57.9492||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9492||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9492||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:57.9517||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:44:57.9621||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.9621||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.9621||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9621||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9693||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9693||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9725||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.9725||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:44:57.9765||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9765||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9852||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9852||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9886||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9886||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9956||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:57.9956||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:58.0002||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:58.0002||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:58.0050||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:44:58.0050||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:03.6284||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:03.6284||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:45:03.6284||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:03.6284||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:03.6284||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:03.6284||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:45:03.6284||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:45:03.6343||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:45:03.6343||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:45:03.6343||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:45:03.6343||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:45:03.6343||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:45:04.0712||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.0712||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.0933||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:04.0933||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:04.1019||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.1019||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.1059||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:45:04.1059||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:45:04.1339||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:04.1339||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:04.1601||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.1601||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.1623||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:45:04.1623||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:45:04.1725||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.1786||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.1893||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.1893||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.2052||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:04.2052||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:35.1517||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:37.7977||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (7 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:37.7977||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:37.8042||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:37.8063||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:45:49.6287||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:52.1438||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:52.1438||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:52.1508||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:52.1508||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:45:56.0364||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:46:02.2353||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:46:02.2353||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:46:02.2398||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:46:02.2398||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:46:08.3933||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:08.3933||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:46:08.3933||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:46:08.4084||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:46:08.4084||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:46:08.4191||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:46:08.4191||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:46:08.4225||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:46:08.4225||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:46:10.8443||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (7 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8443||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8490||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8490||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8571||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8571||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8626||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8626||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8692||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8692||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8786||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:46:10.8786||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:09.6839||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:56:09.6917||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:56:09.6917||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:09.6917||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Transaksi_Kas |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:56:12.6751||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Budget_Dept (7 rows) |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:56:12.6751||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:56:12.8719||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (7 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:56:12.8719||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:56:12.8719||INFO|LedgerAI.Backend.Services.SheetParserService|Fetching REAL data from Google Sheets: Piutang_Klien |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:56:13.2369||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:56:13.2369||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:56:14.8836||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Transaksi_Kas (7 rows) |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:14.8836||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.5419||INFO|LedgerAI.Backend.Services.SheetParserService|Successfully fetched Piutang_Klien (8 rows) |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:56:16.5419||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:56:16.5419||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:56:16.5419||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/summary|action: GetSummary
+2026-02-28 23:56:16.6218||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6218||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6218||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:56:16.6218||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:56:16.6218||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:56:16.6218||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:56:16.6218||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Budget_Dept |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:56:16.6251||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 budgets from Sheets |url: http://localhost/api/dashboard/budgets|action: GetBudgets
+2026-02-28 23:56:16.6251||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6251||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6251||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Piutang_Klien |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:56:16.6251||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 8 invoices from Sheets |url: http://localhost/api/dashboard/invoices|action: GetInvoices
+2026-02-28 23:56:16.6320||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6320||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6374||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6374||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6403||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6403||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6416||INFO|LedgerAI.Backend.Services.SheetParserService|Returning CACHED data for Transaksi_Kas |url: http://localhost/api/dashboard/transactions|action: GetTransactions
+2026-02-28 23:56:16.6451||INFO|LedgerAI.Backend.Services.SheetParserService|Parsed 7 transactions from Sheets |url: http://localhost/api/dashboard/transactions|action: GetTransactions

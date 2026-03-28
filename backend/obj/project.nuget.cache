@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "cOSukbAuT/w=",
+  "success": true,
+  "projectFilePath": "/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/LedgerAI.Backend.csproj",
+  "expectedPackageFiles": [
+    "/home/danyswr/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/10.0.3/microsoft.aspnetcore.diagnostics.entityframeworkcore.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.aspnetcore.openapi/10.0.3/microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.entityframeworkcore/10.0.3/microsoft.entityframeworkcore.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.3/microsoft.entityframeworkcore.abstractions.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.3/microsoft.entityframeworkcore.analyzers.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.3/microsoft.entityframeworkcore.relational.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.3/microsoft.extensions.caching.abstractions.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.extensions.caching.memory/10.0.3/microsoft.extensions.caching.memory.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.3/microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.3/microsoft.extensions.dependencyinjection.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.3/microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.extensions.logging/10.0.3/microsoft.extensions.logging.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.3/microsoft.extensions.logging.abstractions.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.extensions.options/10.0.3/microsoft.extensions.options.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.extensions.primitives/10.0.3/microsoft.extensions.primitives.10.0.3.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/nlog/6.1.0/nlog.6.1.0.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/nlog.extensions.logging/6.1.1/nlog.extensions.logging.6.1.1.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/nlog.web.aspnetcore/6.1.1/nlog.web.aspnetcore.6.1.1.nupkg.sha512",
+    "/home/danyswr/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

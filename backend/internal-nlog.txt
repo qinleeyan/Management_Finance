@@ -1,0 +1,87 @@
+2026-02-27 22:58:07.4379 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-27 22:58:07.4710 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-27 22:58:07.4710 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-27 22:58:07.4779 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-27 22:58:07.5074 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-27 22:58:07.7282 Info LogFactory shutting down ...
+2026-02-27 22:58:07.7282 Info Closing old configuration.
+2026-02-27 22:58:07.7349 Info LogFactory shutdown completed.
+2026-02-27 23:01:46.8454 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-27 23:01:46.8742 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-27 23:01:46.8747 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-27 23:01:46.8802 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-27 23:01:46.9051 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-27 23:01:47.2320 Info LogFactory shutting down ...
+2026-02-27 23:01:47.2320 Info Closing old configuration.
+2026-02-27 23:01:47.2389 Info LogFactory shutdown completed.
+2026-02-27 23:02:34.9746 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-27 23:02:35.0028 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-27 23:02:35.0028 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-27 23:02:35.0085 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-27 23:02:35.0330 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-27 23:04:04.3237 Info LogFactory shutting down ...
+2026-02-27 23:04:04.3237 Info Closing old configuration.
+2026-02-27 23:04:04.3306 Info LogFactory shutdown completed.
+2026-02-27 23:04:07.2864 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-27 23:04:07.3136 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-27 23:04:07.3136 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-27 23:04:07.3198 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-27 23:04:07.3435 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-27 23:04:49.1705 Info LogFactory shutting down ...
+2026-02-27 23:04:49.1705 Info Closing old configuration.
+2026-02-27 23:04:49.1819 Info LogFactory shutdown completed.
+2026-02-28 00:14:21.4090 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-28 00:14:21.4349 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-28 00:14:21.4349 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-28 00:14:21.4399 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-28 00:14:21.4618 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-28 04:21:06.2804 Info LogFactory shutting down ...
+2026-02-28 04:21:06.2863 Info Closing old configuration.
+2026-02-28 04:21:06.3053 Info LogFactory shutdown completed.
+2026-02-28 04:21:56.3200 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-28 04:21:56.3571 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-28 04:21:56.3571 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-28 04:21:56.3644 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-28 04:21:56.3900 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-28 04:22:37.3463 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-28 04:22:37.3792 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-28 04:22:37.3792 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-28 04:22:37.3860 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-28 04:22:37.4182 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-28 04:22:37.9667 Info LogFactory shutting down ...
+2026-02-28 04:22:37.9667 Info Closing old configuration.
+2026-02-28 04:22:37.9744 Info LogFactory shutdown completed.
+2026-02-28 08:23:48.4121 Info LogFactory shutting down ...
+2026-02-28 08:23:48.4160 Info Closing old configuration.
+2026-02-28 08:23:48.4256 Info LogFactory shutdown completed.
+2026-02-28 11:33:41.6518 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-28 11:33:41.6897 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-28 11:33:41.6906 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-28 11:33:41.7010 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-28 11:33:41.7372 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-28 12:43:32.7232 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-28 12:43:32.7601 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-28 12:43:32.7601 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-28 12:43:32.7660 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-28 12:43:32.7945 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-28 12:54:27.8599 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-28 12:54:27.8982 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-28 12:54:27.8982 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-28 12:54:27.9051 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-28 12:54:27.9398 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-28 12:54:28.1407 Info LogFactory shutting down ...
+2026-02-28 12:54:28.1407 Info Closing old configuration.
+2026-02-28 12:54:28.1602 Info LogFactory shutdown completed.
+2026-02-28 13:03:38.0453 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-28 13:03:38.0827 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-28 13:03:38.0827 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-28 13:03:38.0921 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-28 13:03:38.1248 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config
+2026-02-28 13:21:56.4479 Info LogFactory shutting down ...
+2026-02-28 13:21:56.4554 Info Closing old configuration.
+2026-02-28 13:21:56.4688 Info LogFactory shutdown completed.
+2026-02-28 22:56:02.4895 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2026-02-28 22:56:02.5181 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2026-02-28 22:56:02.5186 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2026-02-28 22:56:02.5236 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.0.4914. Product version: 6.1.0+5b1846554f5a8f98878ca64cce5a485ca3b8275c. GlobalAssemblyCache: False
+2026-02-28 22:56:02.5472 Info Configuration initialized: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=50, AutoReload=true, FilePath=/home/danyswr/PORTOFOLIO/dashboard_keuangan/backend/bin/Debug/net10.0/nlog.config

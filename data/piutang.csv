@@ -1,0 +1,11 @@
+Id,NamaKlien,NilaiInvoice,TanggalTagihan,TanggalJatuhTempo,StatusPembayaran
+INV-001,PT Maju Jaya,75000000,2025-11-01,2025-12-01,Belum Lunas
+INV-002,CV Sentosa Abadi,45000000,2025-12-15,2026-01-15,Lunas
+INV-003,PT Global Teknik,120000000,2026-01-01,2026-02-01,Belum Lunas
+INV-004,PT Sinar Harapan,30000000,2025-10-01,2025-11-01,Belum Lunas
+INV-005,CV Karya Mandiri,55000000,2026-01-10,2026-02-10,Lunas
+INV-006,PT Mega Konstruksi,200000000,2026-01-15,2026-03-15,Belum Lunas
+INV-007,PT Indo Digital,18000000,2025-09-01,2025-10-01,Belum Lunas
+INV-008,CV Citra Lestari,90000000,2026-02-01,2026-03-01,Belum Lunas
+INV-009,PT Nusantara Tech,65000000,2026-02-10,2026-03-10,Belum Lunas
+INV-010,PT Bumi Resources,150000000,2025-08-01,2025-09-15,Belum Lunas
