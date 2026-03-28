@@ -6,54 +6,70 @@ A robust, AI-powered financial dashboard designed to provide real-time analytics
 
 ---
 
-## 🎯 Concept & Architecture
+## 🎯 Konsep Utama (Core Concept)
 
-The LedgerAI Dashboard is built on a multi-tier microservices architecture. It abstracts the database layer (Google Sheets) behind a secure C# proxy, ensuring sensitive URLs and data logic are never exposed to the client.
+Konsep dari **LedgerAI Dashboard** adalah memberikan pengalaman kelas *enterprise* untuk data keuangan yang dikelola sesederhana mungkin (menggunakan Google Sheets). Daripada memaksa user untuk belajar sistem *database* yang rumit, aplikasi ini membaca data langsung dari spreadsheet operasional harian, memprosesnya dengan **Kecerdasan Buatan (AI)**, dan menampilkannya di *dashboard* analitik tingkat tinggi.
 
-### Stack Overview
-
-1.  **Frontend (Next.js 14+ & React):**
-    A high-fidelity, responsive UI built with Tailwind CSS, Framer Motion, and Recharts. It provides interactive charts, KPI cards (Cash Runway, Burn Rate), and a clean presentation of financial data.
-2.  **API Gateway & Backend (C# ASP.NET Core):**
-    Acts as the secure middleman. It fetches data from the raw data source, parses it natively, caches responses to improve performance, and implements Rate Limiting & CORS. **All sensitive endpoint URLs and tokens are securely managed here and completely hidden from the public frontend.**
-3.  **AI Engine (Python FastAPI):**
-    A dedicated microservice for machine learning tasks. It utilizes `Scikit-learn` and `Pandas` to process transactional data securely pulled from the C# backend.
-    *   **Isolation Forest:** Detects anomalous/suspicious out-of-pattern expenses.
-    *   **Linear Regression:** Predicts future cashflow and runway based on historical burn rates.
+Aplikasi ini dibagi menjadi 3 pilar utama:
+1.  **Frontend (Next.js):** Fokus pada representasi visual dan metrik bisnis secara *real-time*.
+2.  **Proxy Backend (C# ASP.NET):** Fokus pada keamanan, kecepatan (caching), dan menjaga agar data Sheets tidak bisa diakses sembarangan oleh publik.
+3.  **AI Engine (Python FastAPI):** Fokus pada analisa matematis (Linear Regression & Isolation Forest) untuk memprediksi keuangan masa depan dan mencari pengeluaran mencurigakan.
 
 ---
 
-## 📸 Gallery
+## 📸 Panduan Halaman & Fitur (Page & Features Guide)
 
-Here is a look at the various features and modules within the dashboard:
+Berikut adalah penjelasan mendalam tentang setiap halaman dan fitur yang ada di dalam aplikasi.
 
-### Main Dashboard Overview
+### 1. Main Dashboard Overview
 ![Dashboard](gallery/dashboard.png)
 
-### Buku Kas (Transactions)
+**Penjelasan:**
+Halaman utama ini adalah pusat komando (Command Center). Di sini, seluruh data dari berbagai modul dikumpulkan menjadi Key Performance Indicators (KPI).
+- **Cash Runway & Burn Rate:** Memberitahu berapa lama perusahaan bisa bertahan dengan saldo kas saat ini jika rata-rata pengeluaran bulanan tetap sama.
+- **Realisasi Anggaran:** Menampilkan secara instan apakah persentase penggunaan budget per departemen masih dalam batas wajar.
+- **Grafik Revenue vs Expense:** Membandingkan secara visual pemasukan dan pengeluaran dari waktu ke waktu.
+
+### 2. Buku Kas (Transactions)
 ![Buku Kas](gallery/bukuKas.png)
 
-### Manajemen Piutang (Accounts Receivable)
+**Penjelasan:**
+Halaman ini adalah representasi mentah dari *cashflow* harian.
+- Mengambil data real-time dari tabel *Transaksi_Kas*.
+- Semua transaksi keluar masuk tercatat dengan label **Kategori** yang spesifik (misal: "Gaji", "Operasional", "Marketing"). Data kategori ini sangat penting karena akan menjadi sumber analisa "Anomaly Detection" oleh Machine Learning.
+
+### 3. Manajemen Piutang (Accounts Receivable)
 ![Piutang](gallery/piutang.png)
 
-### AI-Powered Notifications & Anomalies
+**Penjelasan:**
+Melacak uang yang belum masuk ke perusahaan (Invoices).
+- Menyajikan status tagihan klien (Lunas / Belum Lunas).
+- Fitur ini sangat krusial bagi cashflow, karena *Cash Runway* bisa diprediksi salah jika tidak memperhitungkan total uang yang macet di pihak ketiga. Sistem akan men-highlight piutang yang mendekati jatuh tempo.
+
+### 4. AI-Powered Notifications & Anomalies
 ![Notifikasi AI](gallery/notifikasi.png)
+
+**Penjelasan:**
+Ini adalah asisten pintar (*Smart Assistant*) yang berjalan di *background*.
+Menggunakan algoritma **Isolation Forest** via Python, sistem secara berkala memindai ribuan baris transaksi. 
+- Jika ada *pattern* aneh (contoh: Pengeluaran "Operasional" biasanya Rp 2.000.000, tiba-tiba ada pengeluaran Rp 25.000.000), sistem langsung menembakkan pop-up alert (*Z-Score Alert*) ke Dashboard untuk segera diinvestigasi.
 
 ---
 
-## 🔒 Security & Privacy
+## 🔒 Security & Privacy (Keamanan Tingkat Tinggi)
 
-This architecture was designed with security as a primary focus:
-*   **Zero Client-Side Secrets:** The Next.js frontend never communicates directly with the database or external Google APIs. All requests go through the internal ASP.NET proxy.
-*   **Data Masking:** Internal paths, Apps Script URLs, and spreadsheet IDs are strictly contained within backend environment configurations.
-*   **DDoS Protection:** The C# backend implements strict Rate Limiting (`100 requests / 10s`) queueing.
-*   **Caching:** In-memory caching mitigates redundant hits to the database layer, protecting API quotas while serving data instantly.
+Arsitektur keamanan aplikasi ini dirancang khusus untuk melindungi data finansial perusahaan:
+
+*   **Zero Client-Side Secrets (Frontend Aman):** Aplikasi *frontend* (React/Next.js) **TIDAK PERNAH** berkomunikasi langsung dengan *database* Google Sheets. Frontend hanya menembak endpoint internal `/api/dashboard`. Ini membuat URL rahasia, token, dan data internal mustahil bisa di-*inspect* oleh sembarang orang via *browser*.
+*   **Backend Proxy (C#):** C# ASP.NET berdiri sebagai "Garda Depan". Semua eksekusi *database* (Sheets URL) di-enkapsulasi di dalam memori server backend.
+*   **Anti-DDoS (Rate Limiting):** API dilengkapi pembatasan *request* maksimum (`100 request per 10 detik`). Jika batas terlewati, eksekusi akan tertahan, menjaga server dari *spam* dan *traffic overload*.
+*   **Caching Strategy:** Sistem menyimpan *cache* data sementara di backend (RAM). Jika ada 1000 user membuka dashboard sekaligus, backend tidak akan menembak Google Sheets 1000x (yang bisa membuat Google memblokir akses karena kuota limit API), melainkan hanya 1x lalu menyebarkan *cache* ke seluruh user.
 
 ---
 
 ## 🚀 Getting Started (Local Development)
 
-To run this project locally, you will need to start all three services perfectly. 
+Untuk menjalankan environment ini secara lokal dengan seluruh ekosistem (Frontend, Backend Proxy, dan AI Engine).
 
 ### Prerequisites
 - Node.js (v18+)
@@ -61,27 +77,28 @@ To run this project locally, you will need to start all three services perfectly
 - Python 3.10+
 
 ### 1. Start the C# Backend
-The C# backend acts as the main data provider on port `5000`.
+C# backend berfungsi sebagai data provider utama di port `5000`.
 ```bash
 cd backend
 dotnet run
 ```
 
 ### 2. Start the Python AI Engine
-The AI engine runs on port `8080` and communicates with the C# backend.
+Mesin AI berjalan di port `8080` dan mengambil sampel data operasional dari backend C#.
 ```bash
 cd ai
-# Ensure virtual environment is activated and dependencies (pandas, scikit-learn, fastapi) are installed
+# Aktifkan virtual environment 
 source venv/bin/activate
+# Jalankan engine
 python main.py
 ```
 
 ### 3. Start the Next.js Frontend
-The frontend runs on port `3000` and consumes both the `5000` and `8080` APIs.
+UI interaktif berjalan di port `3000` dan mengkonsumsi API dari proxy C# dan AI Engine.
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-Visit `http://localhost:3000` to view the application in action.
+Buka `http://localhost:3000` di *web browser* Anda.
